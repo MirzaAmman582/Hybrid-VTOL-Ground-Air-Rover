@@ -1,6 +1,6 @@
 # Hybrid Ground-Air Rover with VTOL Capability
 
-![Hybrid Ground-Air Rover Preview](hybrid_rover.jpg)
+![Hybrid Ground-Air Rover Preview](hybrid_rover.jpeg)
 
 ## 📌 Project Overview
 This repository contains the full technical documentation and framework for a hybrid robotic system designed for Search and Rescue (SAR) operations. The rover overcomes the limitations of single-mode platforms by combining the endurance of a tracked UGV with the vertical access of a quadcopter UAV.
