@@ -14,7 +14,8 @@ This repository contains the full technical documentation and framework for a hy
 ## 📊 Technical Data Analysis
 ![Motor PWM Analysis](pwm_analysis.png)
 * **Signal Validation:** Conducted rigorous PWM waveform analysis (see Figure 3.6 in the report) to verify the ESC duty cycles during flight transitions.
-* **Stability Testing:** Used MAVLink telemetry to confirm the Pixhawk PID loop's ability to maintain a stable hover despite the ground-locomotion offset weight.
+* **System Calibration:** Exported and analyzed the full **PX4 Parameter Set** (`.param`) to optimize PID loops for the unique center-of-gravity challenges posed by a hybrid ground-air chassis.
+* **Stability Testing:** Used MAVLink telemetry to confirm flight stability despite the 0.4kg ground-locomotion offset weight.
 
 ## 🛠 Tech Stack
 * **Microcontrollers:** Pixhawk PX4 (Flight), Arduino Elegoo R3 (Ground).
@@ -24,7 +25,9 @@ This repository contains the full technical documentation and framework for a hy
 
 ## 📁 Repository Structure
 * `/Docs`: `Postgrad_Dissertation_Hybrid_Rover.pdf` - Full 60+ page technical report.
-* `/Firmware`: Custom Arduino ground control scripts and Pixhawk configuration logs.
+* `/Firmware`: 
+    * `Config_File.param`: Full Pixhawk/PX4 configuration and PID tuning parameters.
+    * `Tank_Motors_fullmovement.ino`: Custom Arduino C++ script for ground differential drive.
 * `README.md`: Project summary and technical specifications.
 
 ---
