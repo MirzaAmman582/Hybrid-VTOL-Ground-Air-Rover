@@ -26,7 +26,7 @@ This repository contains the full technical documentation and framework for a hy
 ## 📁 Repository Structure
 * `/Docs`: `Postgrad_Dissertation_Hybrid_Rover.pdf` - Full 60+ page technical report.
 * `/Firmware`: 
-    * `Config_File.param`: Full Pixhawk/PX4 configuration and PID tuning parameters.
+    * `Hybrid_Rover_PX4_Parameters.param`: Full Pixhawk/PX4 configuration and PID tuning parameters.
     * `Tank_Motors_fullmovement.ino`: Custom Arduino C++ script for ground differential drive.
 * `README.md`: Project summary and technical specifications.
 
