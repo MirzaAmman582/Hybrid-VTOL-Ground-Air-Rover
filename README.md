@@ -24,7 +24,7 @@ This repository contains the full technical documentation and framework for a hy
 * **Communication:** Microzone 6C Mini 2.4 GHz 6-Channel.
 
 ## 📁 Repository Structure
-* `/Docs`: `Postgrad_Dissertation_Hybrid_Rover.pdf` - Full 60+ page technical report.
+* `/Docs`: `Hybrid Drone VTOL.pdf` - Full 60+ page technical report.
 * `/Firmware`: 
     * `Hybrid_Rover_PX4_Parameters.param`: Full Pixhawk/PX4 configuration and PID tuning parameters.
     * `Tank_Motors_fullmovement.ino`: Custom Arduino C++ script for ground differential drive.
